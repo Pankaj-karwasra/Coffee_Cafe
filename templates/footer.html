@@ -1,0 +1,72 @@
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
+        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Get In Touch</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>{{contact_info.address}}</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>{{contact_info.phone}}</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>{{contact_info.email}}</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Follow Us</h4>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
+                <div>
+                    <!--{% for open_hour in open_hours %}-->
+                
+                    <h6 class="text-white text-uppercase">{{ open_hour.day }}</h6>
+                    <!--<p>{{ open_hour.time_range }}</p>
+                    <h6 class="text-white text-uppercase">{{hours_context.day}}</h6>-->
+                    <p>{{ open_hour.time }}</p>
+                    <!--{% endfor %}-->
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
+                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
+                <div class="w-100">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary font-weight-bold px-3">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="/statics/https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/statics/https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="/statics/lib/easing/easing.min.js"></script>
+    <script src="/statics/lib/waypoints/waypoints.min.js"></script>
+    <script src="/statics/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/statics/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="/statics/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="/statics/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="/statics/mail/jqBootstrapValidation.min.js"></script>
+    <script src="/statics/mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="/statics/js/main.js"></script>
+</body>
+
+</html>
